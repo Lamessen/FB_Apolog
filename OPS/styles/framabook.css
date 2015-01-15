@@ -247,6 +247,9 @@ dl.liste-paragraphe dt + dd::after {
 /*******************************************************************************
  * Contenu principal
  */
+.droit {
+  font-style: normal;
+}
 
 /* paragraphes */
 p {
