@@ -21,6 +21,9 @@
 /* Aide à la relecture -- désactiver cette ligne avant publication de l’EPUB */
 @import url(relecture.css);
 
+/* Import de la page de stype spéciale romans de Pouhiou */
+@import url(pouhiou.css);
+
 /*******************************************************************************
  * Titres
  * On prévoit des styles spécifiques aux 3 premiers niveaux de division EPUB :
