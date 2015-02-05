@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uuid_id">À DEFINIR</dc:identifier>
+    <dc:publisher>Framasoft/Framabook</dc:publisher>
+    <dc:title>#Apolog : le cycle des Noénautes Tome III</dc:title>
+    <dc:description><p>Insérer ici la description du livre</p></dc:description>
+    <dc:language>fr</dc:language>
+    <dc:creator id="author">iPouhiou</dc:creator>
+    <meta name="cover" content="cover"/>
+    <dc:date>20153-02-01T19:51:36+00:00</dc:date>
+    <meta property="dcterms:modified">2015-01-26T01:55:00Z</meta>
+  </metadata>
+  <manifest>
+    <item media-type="image/jpeg" href="images/cover.jpeg" id="cover" />
+    <item media-type="image/png"  href="images/logo_frama.png" id="frama" />
+    <item media-type="image/png"  href="images/CC0.png" id="cc0" />
+    <item media-type="application/xhtml+xml" href="textes/couverture.xhtml"    id="couv"  />
+    <item media-type="application/xhtml+xml" href="textes/titre.xhtml"         id="titre" />
+    <item media-type="application/xhtml+xml" href="textes/infos-legales.xhtml" id="infos" />
+    <item media-type="application/xhtml+xml" href="textes/chapitre1.xhtml"     id="ch1"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre2.xhtml"     id="ch2"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre3.xhtml"     id="ch3"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre4.xhtml"     id="ch4"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre5.xhtml"     id="ch5"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre6.xhtml"     id="ch6"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre7.xhtml"     id="ch7"   />
+    <item media-type="application/xhtml+xml" href="textes/chapitre8.xhtml"     id="ch8"   />
+    <item media-type="application/xhtml+xml" href="textes/toc.xhtml" id="toc"  properties="nav" />
+    <item media-type="text/css" href="styles/stylesheet.css"      id="stylesheet"     />
+    <item media-type="text/css" href="styles/framabook.css"       id="framabook"      />
+    <item media-type="text/css" href="styles/captain-obvious.css" id="captain-obvious"/>
+    <item media-type="text/css" href="styles/relecture.css"       id="relecture"      />
+    <item media-type="text/css" href="styles/sms.css"             id="sms"            />
+    <item media-type="application/x-dtbncx+xml" href="toc.ncx" id="ncx"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="couv"/>
+    <itemref idref="titre"/>
+    <itemref idref="infos"/>
+    <itemref idref="ch1"/>
+    <itemref idref="ch2"/>
+    <itemref idref="ch3"/>
+    <itemref idref="ch4"/>
+    <itemref idref="ch5"/>
+    <itemref idref="ch6"/>
+    <itemref idref="ch7"/>
+    <itemref idref="ch8"/>
+  </spine>
+  <guide>
+    <reference href="textes/titre.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>
