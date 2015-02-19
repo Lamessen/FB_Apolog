@@ -3,14 +3,13 @@
  *
  * Règles de style particulières pour les romans de Pouhiou.
  * Ne pas inclure dans un autre framabook (modification de styles par défaut)
- *
- ******************************************************************************/
+ */
 
 .hashtag {
   font-family: sans-serif;
 }
 
-.em {
+.musique {
   font-style: normal;
   font-weight: bold;
 }
