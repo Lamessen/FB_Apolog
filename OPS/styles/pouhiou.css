@@ -13,3 +13,11 @@
   font-style: normal;
   font-weight: bold;
 }
+
+.addenda {
+  font-style: italic;
+}
+
+i.addenda {
+  font-style: normal;
+}
