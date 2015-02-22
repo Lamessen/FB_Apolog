@@ -18,6 +18,7 @@
     <item media-type="application/xhtml+xml" href="textes/couverture.xhtml"    id="couv"  />
     <item media-type="application/xhtml+xml" href="textes/titre.xhtml"         id="titre" />
     <item media-type="application/xhtml+xml" href="textes/infos-legales.xhtml" id="infos" />
+    <item media-type="application/xhtml+xml" href="textes/dedicace.xhtml"     id="dedicace"   />
     <item media-type="application/xhtml+xml" href="textes/chapitre1.xhtml"     id="ch1"   />
     <item media-type="application/xhtml+xml" href="textes/chapitre2.xhtml"     id="ch2"   />
     <item media-type="application/xhtml+xml" href="textes/chapitre3.xhtml"     id="ch3"   />
@@ -26,6 +27,7 @@
     <item media-type="application/xhtml+xml" href="textes/chapitre6.xhtml"     id="ch6"   />
     <item media-type="application/xhtml+xml" href="textes/chapitre7.xhtml"     id="ch7"   />
     <item media-type="application/xhtml+xml" href="textes/chapitre8.xhtml"     id="ch8"   />
+    <item media-type="application/xhtml+xml" href="textes/remerciement.xhtml"  id="remerciement" />
     <item media-type="application/xhtml+xml" href="textes/toc.xhtml" id="toc"  properties="nav" />
     <item media-type="text/css" href="styles/stylesheet.css"      id="stylesheet"     />
     <item media-type="text/css" href="styles/framabook.css"       id="framabook"      />
@@ -38,6 +40,7 @@
     <itemref idref="couv"/>
     <itemref idref="titre"/>
     <itemref idref="infos"/>
+    <itemref idref="dedicace"/>
     <itemref idref="ch1"/>
     <itemref idref="ch2"/>
     <itemref idref="ch3"/>
@@ -46,6 +49,7 @@
     <itemref idref="ch6"/>
     <itemref idref="ch7"/>
     <itemref idref="ch8"/>
+    <itemref idref="remerciement"/>
   </spine>
   <guide>
     <reference href="textes/titre.xhtml" type="cover" title="Cover"/>
