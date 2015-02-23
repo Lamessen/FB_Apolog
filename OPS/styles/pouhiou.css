@@ -5,11 +5,13 @@
  * Ne pas inclure dans un autre framabook (modification de styles par défaut)
  */
 
+body { font-family: DejaVu Serif, serif; }
+
 .hashtag {
   font-family: sans-serif;
 }
 
-.musique {
+.musique .gras {
   font-style: normal;
   font-weight: bold;
 }
@@ -18,6 +20,24 @@
   font-style: italic;
 }
 
-i.addenda {
+.addenda .droit {
+  font-style: italic;
+}
+
+div.addenda i {
   font-style: normal;
+}
+
+div.addenda cite {
+  font-style: normal;
+}
+
+dt {
+  font-weight: bold;
+}
+dd>ul>li {
+  font-style: normal;
+}
+dt {
+  margin-top: 2em;
 }
