@@ -4,8 +4,17 @@
  * Règles de style particulières pour les romans de Pouhiou.
  * Ne pas inclure dans un autre framabook (modification de styles par défaut)
  */
+body {
+  font-family: DejaVu serif;
+}
 
-body { font-family: DejaVu Serif, serif; }
+i[lang="he"] {
+  font-family: DejaVu serif;
+}
+
+pre, i[lang="he"] {
+  font-family: DejaVu Sans Mono, monospace;
+}
 
 .hashtag {
   font-family: sans-serif;

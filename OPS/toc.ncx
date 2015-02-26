@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="fr">
+  <head>
+    <meta content="36bfe262-f0e9-46be-ae99-246d31bd858d" name="dtb:uid"/>
+    <meta content="4" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+
+  <docTitle>
+    <text>#Apolog : le cycle des Noénautes Tome III</text>
+  </docTitle>
+
+  <navMap>
+    <navPoint id="infos-legales" playOrder="1">
+      <navLabel>
+        <text>Informations légales</text>
+      </navLabel>
+      <content src="textes/infos-legales.xhtml"/>
+    </navPoint>
+
+    <navPoint id="dedicace" playOrder="2">
+      <navLabel>
+        <text>Dédicace</text>
+      </navLabel>
+      <content src="textes/dedicace.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch1" playOrder="3">
+      <navLabel>
+        <text> Chapitre 1 : la folie juvénile </text>
+      </navLabel>
+      <content src="textes/chapitre1.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch2" playOrder="4">
+      <navLabel> <text> Chapitre 2 : l’augmentation
+        </text>
+      </navLabel>
+      <content src="textes/chapitre2.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch3" playOrder="5">
+      <navLabel>
+        <text> Chapitre 3 : la percée </text>
+      </navLabel>
+      <content src="textes/chapitre3.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch4" playOrder="6">
+      <navLabel>
+        <text> Chapitre 4 : avant l’accomplissement </text>
+      </navLabel>
+      <content src="textes/chapitre4.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch5" playOrder="7">
+      <navLabel>
+        <text> Chapitre 5 : l’humilité </text>
+      </navLabel>
+      <content src="textes/chapitre5.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch6" playOrder="8">
+      <navLabel>
+        <text> Chapitre 6 : la commissure des lèvres </text>
+      </navLabel>
+      <content src="textes/chapitre6.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch7" playOrder="9">
+      <navLabel>
+        <text> Chapitre 7 : la puissance du grand </text>
+      </navLabel>
+      <content src="textes/chapitre7.xhtml"/>
+    </navPoint>
+
+    <navPoint id="ch8" playOrder="10">
+      <navLabel>
+        <text> Chapitre 8 : l’insondable </text>
+      </navLabel>
+      <content src="textes/chapitre8.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
