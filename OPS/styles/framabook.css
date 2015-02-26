@@ -287,7 +287,7 @@ caption {
 /* code */
 pre, code {
   background-color: #ddd;
-  font-family: monospace;
+  font-family: DejaVu Sans Mono, monospace;
 }
 pre {
   padding-left: 2em;
